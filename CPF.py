@@ -3,13 +3,11 @@ class Cpf:
 
     def __init__(self):
         cpf = CPF()
-
         numero = cpf.generate(mask=False)
 
         if self.valida_cpf(numero):
-
             self._numero = cpf.mask(numero)
-            print(f'{self._numero} bom do caralho!!')
+            print(f'CPF: {self._numero}')
         else:
             raise ValueError('CPF INVÁLIDO!')
 
@@ -17,8 +15,6 @@ class Cpf:
 ######
     def __str__(self):
         return self.format_cpf()
-
-
 ######
 ######
     def valida_cpf(self, numero):
