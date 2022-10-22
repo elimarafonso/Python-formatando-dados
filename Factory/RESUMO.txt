@@ -1,0 +1,21 @@
+algoritmo para valida cpf
+
+
+#MODULO 01
+Nessa aula, entendemos como:
+
+    Validar um documento pela quantidade de caracteres;
+    Encontrar, instalar e importar bibliotecas no PyPI;
+    Ler documentações de bibliotecas e utilizá-las em seus códigos.
+
+Na próxima aula, vamos continuar construindo nossa classe e fazer com que ela trabalhe com CNPJs também! Vejo vocês lá!
+
+
+#MODULO 02
+Nessa aula, entendemos:
+
+    Como utilizar mais uma classe da validate_docbr;
+    O que é o padrão de projeto Factory;
+    Como e quando implementar uma Factory em nosso código.
+
+Na próxima aula, vamos construir mais uma classe em nossa biblioteca, e dessa vez ela irá trabalhar com números de telefone e e-mails.
